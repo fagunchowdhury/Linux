@@ -1,0 +1,41 @@
+Linux (Unix) Essential Commands – Practice Log
+Basic Navigation Commands
+
+Command	Purpose
+pwd	Show the current working directory
+cd /e/linux	Change directory to /e/linux
+cd folder_name/	Enter into a directory
+cd ..	Move one directory up
+clear	Clear the terminal screen
+File and Directory Operations
+
+Command	Purpose
+ls	List files and directories
+ls -ltrn	Long listing format sorted by modification time with numeric IDs
+ls -ltrh	Long listing format, human-readable sizes
+mkdir folder_name	Create a new directory
+rmdir folder_name	Remove an empty directory
+rm -rf folder_name	Forcefully remove a directory with its contents
+touch file_name.txt	Create a new empty file
+rm file_name.txt	Delete a file
+cp source_file destination_folder/	Copy a file to another folder
+cp -r source_folder destination_folder/	Copy a folder recursively to another folder
+Working with Files (Text Editors and Viewers)
+
+Command	Purpose
+cat file_name.txt	Display content of a file
+less file_name.txt	View file contents with scrolling and searching
+more file_name.txt	View file contents page by page
+vi file_name.txt	Open file in vi editor (press i to insert, ESC to exit insert mode, :wq to save and exit)
+User and Date/Time Commands
+
+Command	Purpose
+whoami	Display current logged-in username
+date	Show system date and time
+date +%D	Display only the date
+date +%T	Display only the time
+date +%Y	Display only the year
+Other Useful Commands
+
+Command	Purpose
+history	Show the command history					
