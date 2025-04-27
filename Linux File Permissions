@@ -1,0 +1,38 @@
+1. Set Permissions: chmod
+
+chmod 644 filename
+
+→ Sets permissions:
+
+Owner → read + write (rw-)
+
+Group → read-only (r--)
+
+Others → read-only (r--)
+
+2. Add Execute Permission to Owner: chmod
+
+chmod u+x filename
+
+3. Change File Owner: chown
+
+chown newowner filename
+
+→ Changes the file owner to newowner.
+
+4. Change File Group: chgrp
+
+chgrp newgroup filename
+
+→ Changes the file group to newgroup.
+
+5. Set Directory Permissions: chmod
+
+chmod 755 filename
+
+→ Sets permissions:
+Owner → read + write + execute (rwx)
+
+Group → read + execute (r-x)
+
+Others → read + execute (r-x)
